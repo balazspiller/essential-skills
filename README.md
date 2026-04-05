@@ -11,6 +11,7 @@ OpenClaw is an extensible AI agent framework that lets you add capabilities via 
 | Skill | Description |
 |-------|-------------|
 | **codex-delegate** | Mandatory delegation for programming tasks using OpenAI's Codex CLI. |
+| **reddit-poster** | Create and submit posts to Reddit using old.reddit.com with CSS selectors. |
 
 ### About the codex-delegate skill
 
