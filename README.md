@@ -10,7 +10,11 @@ OpenClaw is an extensible AI agent framework that lets you add capabilities via 
 
 | Skill | Description |
 |-------|-------------|
-| **codex-delegate** | Mandatory delegation for programming tasks. Uses Codex CLI iteratively — plan first, then execute step by step. |
+| **codex-delegate** | Mandatory delegation for programming tasks using OpenAI's Codex CLI. |
+
+### About the codex-delegate skill
+
+OpenClaw comes bundled with a generic skill called **"coding-agent"** that works with multiple coding agents (Claude Code, Codex, and Pi). This repository's **codex-delegate** skill is specifically tailored for **OpenAI's Codex CLI**, providing optimized prompts and workflow for that particular tool.
 
 ## Installation
 
